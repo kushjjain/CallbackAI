@@ -4,15 +4,14 @@ import { Card, CardContent, CardHeader, CardTitle } from "../ui/Card";
 import { Brain, Calendar, MessageSquare, PieChart, Zap } from 'lucide-react';
 import {useNavigate} from "react-router-dom"
 export default function Home() {
-  const navigate = useNavigate(); // Initialize useNavigate
+  const navigate = useNavigate(); 
 
   const handleClick = () => {
-    navigate('/customer-support'); // Navigate to /customerSupport
+    navigate('/support'); 
   };
   return (
     <Layout>
       <div className="max-w-7xl mx-auto py-1  2 px-4 sm:px-6 lg:px-8">
-        {/* Hero Section */}
         <div className="text-center mb-16 animate__animated animate__fadeIn animate__delay-1s">
           <h1 className="text-4xl font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
             <span className="block">Welcome to CallbackAI</span>

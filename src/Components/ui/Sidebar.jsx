@@ -39,7 +39,7 @@ export function Sidebar({ className }) {
 
       <nav className="flex flex-1 flex-col gap-2">
         <NavItem to="/" icon={Home} label="Home" isExpanded={isExpanded} />
-        <NavItem to="/customer-support" icon={HelpCircle} label="Customer Support" isExpanded={isExpanded} />
+        <NavItem to="/support" icon={HelpCircle} label="Customer Support" isExpanded={isExpanded} />
         <NavItem to="/news-feed" icon={Newspaper} label="News Feed" isExpanded={isExpanded} />
       </nav>
       <div className="border-t pt-4">
