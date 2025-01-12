@@ -9,6 +9,7 @@ import Connecting from "./Components/Pages/Connecting";
 import Agent from "./Components/Pages/Agent";
 import Feedback from "./Components/Pages/Feedback";
 import ThankYou from "./Components/Pages/Thankyou";
+import LoginPage from "./Components/Pages/Loginpage";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <div className="flex-1 space-y-6 p-6 ml-14">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/login" element={<LoginPage />} />
             <Route path="/news-feed" element={<NewsFeed />} />
             <Route path="/support" element={<CustomerSupport />} />
             <Route path="/support/chatbot" element={<Chatbot/>} />
