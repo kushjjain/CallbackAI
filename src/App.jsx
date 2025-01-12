@@ -8,6 +8,7 @@ import Chatbot from "./Components/Pages/Chatbot";
 import Connecting from "./Components/Pages/Connecting";
 import Agent from "./Components/Pages/Agent";
 import Feedback from "./Components/Pages/Feedback";
+import ThankYou from "./Components/Pages/Thankyou";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
             <Route path="/support/connecting" element={<Connecting />} />
             <Route path="/support/agent" element={<Agent />} />
             <Route path="/support/feedback" element={<Feedback />} />
+            <Route path="/thankyou" element={<ThankYou />} />
           </Routes>
         </div>
       </div>

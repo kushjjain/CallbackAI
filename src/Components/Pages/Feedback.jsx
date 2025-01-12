@@ -15,7 +15,7 @@ export default function Feedback() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    navigate('/');
+    navigate('/thankyou');
   };
 
   return (
